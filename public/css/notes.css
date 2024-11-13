@@ -1,0 +1,53 @@
+        /* Container utama */
+        .sticky-notes-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            padding: 1rem;
+        }
+
+        /* Styling untuk sticky note */
+        .sticky-note {
+            width: 200px;
+            padding: 1rem;
+            background-color: #ffeb3b;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            transform: rotate(-3deg);
+            position: relative;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .sticky-note:hover {
+            transform: rotate(0deg);
+        }
+
+        /* Variasi warna */
+        .sticky-note:nth-child(2n) { background-color: #ffd54f; }
+        .sticky-note:nth-child(3n) { background-color: #ffab91; }
+        .sticky-note:nth-child(4n) { background-color: #a5d6a7; }
+
+        /* Konten dalam sticky note */
+        .sticky-note h5 {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .sticky-note p {
+            font-size: 0.9rem;
+            color: #333;
+        }
+
+        /* Tombol aksi di sticky note */
+        .sticky-note .btn {
+            margin-top: 1rem;
+            font-size: 0.8rem;
+        }
+
+        /* Gaya untuk sticky note yang diperbesar */
+        .sticky-note.expanded {
+            width: 300px;
+            height: auto;
+            transform: rotate(0deg);
+        }

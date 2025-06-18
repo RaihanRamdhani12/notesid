@@ -78,7 +78,7 @@
                                     <input type="password" name="password" class="form-control" id="password">
                                 </div>
                                 <div class="mb-3">
-                                    <label>Belum punya akun? <a href="<?= base_url(); ?>login">Daftar</a></label>
+                                    <label>Belum punya akun? <a href="<?= base_url(); ?>login">Login</a></label>
                                 </div>
                                 <button type="submit" class="btn btn-dark">Daftar</button>
                             </form>
@@ -89,19 +89,20 @@
         </div>
 
         <!-- Footer -->
-        <div class="footer">
-            <footer class="py-3 bg-dark mt-4">
-                <div class="container">
-                    <ul class="nav justify-content-center pb-3 mb-3">
-                        <li class="nav-item"><a href="<?= base_url() ?>" class="nav-link px-2 text-white">Beranda</a>
-                        </li>
-                        <li class="nav-item"><a href="<?= base_url() ?>#tentang"
-                                class="nav-link px-2 text-white">Tentang</a>
-                        </li>
-                    </ul>
-                    <p class="text-center text-white">© 2024 Raihan Ramdhani</p>
-                </div>
-            </footer>
+        <!-- <div class="footer"> -->
+        <footer class="py-3 bg-dark mt-4">
+            <div class="container">
+                <ul class="nav justify-content-center pb-3 mb-3">
+                    <li class="nav-item"><a href="<?= base_url() ?>" class="nav-link px-2 text-white">Beranda</a>
+                    </li>
+                    <li class="nav-item"><a
+                            href="https://rhnrmdhn.vercel.app/?fbclid=PAZXh0bgNhZW0CMTEAAac1OOVGtger7FIfsb6dY3wMXFLNbWZCk7uYZ4OrEg2gc_lsZ4wEy5aDhei1rg_aem_dwMDe0aK_9q3wuxLL3wvCw"
+                            class="nav-link px-2 text-white">Tentang</a>
+                    </li>
+                </ul>
+                <p class="text-center text-white">© 2024 Raihan Ramdhani</p>
+                <!-- </div> -->
+        </footer>
         </div>
 
 

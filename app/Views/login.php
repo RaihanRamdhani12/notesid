@@ -81,7 +81,8 @@
                     <ul class="nav justify-content-center pb-3 mb-3">
                         <li class="nav-item"><a href="<?= base_url() ?>" class="nav-link px-2 text-white">Beranda</a>
                         </li>
-                        <li class="nav-item"><a href="<?= base_url() ?>#tentang"
+                        <li class="nav-item"><a
+                                href="https://rhnrmdhn.vercel.app/?fbclid=PAZXh0bgNhZW0CMTEAAac1OOVGtger7FIfsb6dY3wMXFLNbWZCk7uYZ4OrEg2gc_lsZ4wEy5aDhei1rg_aem_dwMDe0aK_9q3wuxLL3wvCw"
                                 class="nav-link px-2 text-white">Tentang</a>
                         </li>
                     </ul>

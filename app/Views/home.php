@@ -7,6 +7,8 @@
         <title>Daily Notes</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
         <link rel="stylesheet" href="<?= base_url() ?>/css/notes.css">
 
         <style>
@@ -69,6 +71,7 @@
             <div class="sticky-note">
                 <h5><?= $semua_notes['judul'] ?></h5>
                 <p><?= $semua_notes['isi'] ?></p>
+                <p class="text-danger"><b>DEADLINE : <?= $semua_notes['tanggal'] ?></b></p>
                 <button class="btn btn-primary expand-btn">Read more</button>
                 <button class="btn btn-danger"
                     onclick="hapusnotes('<?= $semua_notes['id_notes'] ?>', '<?= $semua_notes['judul'] ?>')">
@@ -78,6 +81,10 @@
             <?php endforeach ?>
         </div>
 
+
+
+
+
         <!-- Footer -->
         <div class="footer">
             <footer class="py-3 bg-dark mt-5">
@@ -85,7 +92,8 @@
                     <ul class="nav justify-content-center pb-3 mb-3">
                         <li class="nav-item"><a href="<?= base_url() ?>" class="nav-link px-2 text-white">Beranda</a>
                         </li>
-                        <li class="nav-item"><a href="<?= base_url() ?>#tentang"
+                        <li class="nav-item"><a
+                                href="https://rhnrmdhn.vercel.app/?fbclid=PAZXh0bgNhZW0CMTEAAac1OOVGtger7FIfsb6dY3wMXFLNbWZCk7uYZ4OrEg2gc_lsZ4wEy5aDhei1rg_aem_dwMDe0aK_9q3wuxLL3wvCw"
                                 class="nav-link px-2 text-white">Tentang</a>
                         </li>
                     </ul>
